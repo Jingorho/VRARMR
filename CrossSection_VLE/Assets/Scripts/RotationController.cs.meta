@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: babfc89bbd223dd4397124f0450e145b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - isVRObj: {instanceID: 0}
+  - isvr: {instanceID: 0}
+  - myControllerLeft: {instanceID: 0}
+  - myControllerRight: {instanceID: 0}
+  - XRot: {instanceID: 0}
+  - YRot: {instanceID: 0}
+  - ZRot: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

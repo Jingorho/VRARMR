@@ -1,22 +1,21 @@
 # Cross-Section Virtual Learning Environment
 図形の断面図をデモできるVLE．
 
-<p align="center">
-  <img src="/img/mainImg.png">
-</p>
-
-
+[![CrossSection](http://img.youtube.com/vi/oMZO4tNokEQ/0.jpg)](http://www.youtube.com/watch?v=oMZO4tNokEQ)
 
 
 ## Features:
-<p>仮想空間内で板を自由に動かすことで，3次元図形を板で切ったときの断面図を観察できる．</p> 
-<p>開発環境: Unity2018.1.1f1 / htc VIVE / macOS High SierraとWindows10</p>
+仮想空間内で板を自由に動かすことで，3次元図形を板で切ったときの断面図を観察できる。
+開発環境: 
+Unity2018.1.1f1
+htc VIVE
+macOS High SierraとWindows10
 
 
-### [操作説明](/img/usersGuide.png)
+### 操作説明
 - VIVEのコントローラで  
 	コントローラが板に触れると板の色が少し濃くなる -> 人差し指部分のトリガーを引くと掴んで動かせる
-	[コツ]  
+	コツ:
 	トリガーが効かなくなったら，いったんコントローラを板の外に外して衝突判定を外してから，再度コントローラを板の中に入れて衝突判定を生じさせると改善する場合が多い．
 
 - キーボード操作で  
@@ -42,13 +41,6 @@
 		- 5: 円柱の表示/非表示の切り替え
 		- 6: 直方体の表示/非表示の切り替え
 		- 7: 球の表示/非表示の切り替え
-
-
-
-
-## [デモ](https://youtu.be/oMZO4tNokEQ)
-//開発版．不完全 (2018.07.24)
-
 
 
 

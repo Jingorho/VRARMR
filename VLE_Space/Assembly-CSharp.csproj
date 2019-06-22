@@ -62,6 +62,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DirectToCamera.cs" />
+    <Compile Include="Assets\LookAtCamera.cs" />
     <Compile Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Scripts\Bloom.cs" />
     <Compile Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
@@ -100,6 +102,11 @@
     <Compile Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Scripts\Twirl.cs" />
     <Compile Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\StarTools\Assets\CoronaRotator.cs" />
+    <Compile Include="Assets\StarTools\Assets\Misc\CamCont.cs" />
+    <Compile Include="Assets\StarTools\Assets\Misc\MorphStar.cs" />
+    <Compile Include="Assets\StarTools\Assets\Star.cs" />
+    <Compile Include="Assets\StarTools\Assets\StarRotator.cs" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
@@ -122,6 +129,7 @@
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\StarTools\Assets\3DStarShader.shader" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\SSAOShader.shader" />
@@ -141,6 +149,7 @@
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\StarTools\Assets\CoronaShader.shader" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
@@ -162,7 +171,10 @@
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\SkySerie Freebie\Hdri setup.txt" />
+    <None Include="Assets\StarTools\Assets\WebGLNoisePort\noiseSimplex.cginc" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\StarTools\Assets\noiseHelper.cginc" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />

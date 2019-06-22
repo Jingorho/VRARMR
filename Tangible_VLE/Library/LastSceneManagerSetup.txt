@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/SpaceViewScene_bak.unity
+- path: Assets/1_SpaceViewScene_vertHor.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

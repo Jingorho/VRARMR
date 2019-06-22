@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\ExportTerrain.cs" />
+    <Compile Include="Assets\StarTools\Editor\StarEditor.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/User/Workspace/VRARMR/VLE_Space/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
